@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Результаты (тяжёлые файлы)
+results/*.gif
+results/*.mp4
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Но картинки сохраняем
+!results/*.png
