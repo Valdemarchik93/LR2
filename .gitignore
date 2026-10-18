@@ -13,13 +13,9 @@ env/
 .vscode/
 .idea/
 
-# Результаты (тяжёлые файлы)
-results/*.gif
-results/*.mp4
-
 # ОС
 .DS_Store
 Thumbs.db
 
-# Но картинки сохраняем
-!results/*.png
+# Не коммитим только самые тяжёлые форматы
+results/*.mp4
